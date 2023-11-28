@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yz+0OgsJkeBuFhHHjv/q63z1kMGboSY27zKQAiwp6O/SAW1WLP++XGVeALl0W0oSJpDKrSwOmQXc7FJWuxmkPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rsavchuk\\Olya\\EAFrameworkFolder\\EAFramework\\EAFramework\\EAFramework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rsavchuk\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\rsavchuk\\.nuget\\packages\\selenium.support\\4.11.0\\selenium.support.4.11.0.nupkg.sha512",
+    "C:\\Users\\rsavchuk\\.nuget\\packages\\selenium.webdriver\\4.11.0\\selenium.webdriver.4.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}
