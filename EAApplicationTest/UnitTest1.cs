@@ -1,8 +1,9 @@
 using System;
+using AutoFixture.Xunit2;
+using EAApplicationTest.Models;
 using EAApplicationTest.Pages;
 using EAFramework.Config;
 using EAFramework.Driver;
-using OpenQA.Selenium;
 using Xunit;
 
 namespace EAApplicationTest
@@ -13,18 +14,22 @@ namespace EAApplicationTest
 
         public UnitTest1()
         {
-            var testSettings = new TestSettings()
-            {
-                BrowserType = BrowserType.Chrome,
-                ApplicationUrl = new Uri("http://localhost:8000/"),
-                TimeoutInterval = 30
-            };
+            // var testSettings = new TestSettings()
+            // {
+            //     BrowserType = BrowserType.Chrome,
+            //     ApplicationUrl = new Uri("http://localhost:8000/"),
+            //     TimeoutInterval = 30
+            // };
 
+            var testSettings = ConfigReader.ReadConfig();
+            
             _driverFixture = new DriverFixture(testSettings);
         }
         
-        [Fact]
-        public void Test1()
+        [Theory]
+        [AutoData]
+        //AutoData will fill all Product model's fields with automatically generated data
+        public void Test1(Product product)
         {
             //HomePage
             var homePage = new HomePage(_driverFixture);
@@ -35,10 +40,10 @@ namespace EAApplicationTest
             
             //Create product
             productPage.ClickCreateButton();
-            productPage.CreateProduct("FirstProduct2", "description fro product2", "300", "MONITOR");
+            productPage.CreateProduct(product);
             
             //Open products details
-            productPage.PerformClickOnSpecialValue("FirstProduct2", "Details");
+            productPage.PerformClickOnSpecialValue(product.Name, "Details");
         }
 
         public void Dispose()

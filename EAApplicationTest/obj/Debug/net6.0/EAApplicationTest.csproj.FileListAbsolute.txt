@@ -105,3 +105,7 @@ C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAApplicationTest\obj\Debug
 C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAApplicationTest\obj\Debug\net6.0\EAApplicationTest.pdb
 C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAApplicationTest\obj\Debug\net6.0\EAApplicationTest.genruntimeconfig.cache
 C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAApplicationTest\obj\Debug\net6.0\ref\EAApplicationTest.dll
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAApplicationTest\bin\Debug\net6.0\AutoFixture.dll
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAApplicationTest\bin\Debug\net6.0\AutoFixture.Xunit2.dll
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAApplicationTest\bin\Debug\net6.0\Fare.dll
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAApplicationTest\bin\Debug\net6.0\appsettings.json

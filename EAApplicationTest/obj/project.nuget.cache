@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5J+JG83I5Pzeu3TP6sCzl0NRpoQx9eZICqs9gIKY2hKyCfBIggrXXksNJNmD+Znx4Sw+5QAf6oT0qnFMCuiy5w==",
+  "dgSpecHash": "6I9lqMbR0CexRgMTdp31Rzns6V1ce34HCwTJ9tiAQE2UpBrq8dcIjj9h9iKDBx3PeTdouTgrI1oGzKuTHacsaA==",
   "success": true,
   "projectFilePath": "C:\\Users\\rsavchuk\\Olya\\EAFrameworkFolder\\EAFramework\\EAApplicationTest\\EAApplicationTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rsavchuk\\.nuget\\packages\\autofixture\\4.18.1\\autofixture.4.18.1.nupkg.sha512",
+    "C:\\Users\\rsavchuk\\.nuget\\packages\\autofixture.xunit2\\4.18.1\\autofixture.xunit2.4.18.1.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\rsavchuk\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -37,6 +40,8 @@
     "C:\\Users\\rsavchuk\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
+    "C:\\Users\\rsavchuk\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\rsavchuk\\.nuget\\packages\\system.componentmodel.annotations\\4.3.0\\system.componentmodel.annotations.4.3.0.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.3.0\\system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
