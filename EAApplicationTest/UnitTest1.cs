@@ -11,19 +11,13 @@ namespace EAApplicationTest
     public class UnitTest1 : IDisposable
     {
         private IDriverFixture _driverFixture;
+        private IDriverWait _driverWait;
 
         public UnitTest1()
         {
-            // var testSettings = new TestSettings()
-            // {
-            //     BrowserType = BrowserType.Chrome,
-            //     ApplicationUrl = new Uri("http://localhost:8000/"),
-            //     TimeoutInterval = 30
-            // };
-
             var testSettings = ConfigReader.ReadConfig();
-            
             _driverFixture = new DriverFixture(testSettings);
+            _driverWait = new DriverWait(_driverFixture, testSettings);
         }
         
         [Theory]
@@ -32,8 +26,8 @@ namespace EAApplicationTest
         public void Test1(Product product)
         {
             //HomePage
-            var homePage = new HomePage(_driverFixture);
-            var productPage = new ProductPage(_driverFixture);
+            var homePage = new HomePage(_driverWait);
+            var productPage = new ProductPage(_driverWait);
             
             //Click and create link
             homePage.ClickProduct();
