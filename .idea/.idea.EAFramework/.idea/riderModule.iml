@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/17.1.0/build/netcoreapp2.1" />
-    <content url="file://$USER_HOME$/.nuget/packages/microsoft.testplatform.testhost/17.1.0/build/netcoreapp2.1/x64/Microsoft.TestPlatform.PlatformAbstractions.dll" />
-    <content url="file://$USER_HOME$/.nuget/packages/microsoft.testplatform.testhost/17.1.0/build/netcoreapp2.1/x64/testhost.dll" />
-    <content url="file://$USER_HOME$/.nuget/packages/microsoft.testplatform.testhost/17.1.0/build/netcoreapp2.1/x64/testhost.exe" />
+    <content url="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/17.9.0-preview-23577-04/build/netcoreapp3.1" />
+    <content url="file://$USER_HOME$/.nuget/packages/microsoft.testplatform.testhost/17.9.0-preview-23577-04/build/netcoreapp3.1/x64/testhost.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/microsoft.testplatform.testhost/17.9.0-preview-23577-04/build/netcoreapp3.1/x64/testhost.exe" />
     <content url="file://$USER_HOME$/.nuget/packages/selenium.webdriver/4.11.0/manager/linux" />
     <content url="file://$USER_HOME$/.nuget/packages/selenium.webdriver/4.11.0/manager/macos" />
     <content url="file://$USER_HOME$/.nuget/packages/selenium.webdriver/4.11.0/manager/windows" />
-    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.3/build/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll" />
-    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.3/build/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll" />
-    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.3/build/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.5.5/build/net6.0/xunit.runner.reporters.netcoreapp10.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.5.5/build/net6.0/xunit.runner.utility.netcoreapp10.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.5.5/build/net6.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
     <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

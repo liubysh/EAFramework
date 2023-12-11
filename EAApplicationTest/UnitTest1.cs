@@ -13,11 +13,12 @@ namespace EAApplicationTest
         private IDriverFixture _driverFixture;
         private IDriverWait _driverWait;
 
-        public UnitTest1()
+        //We using only interfaces instead of classes, dependency injection
+        //is used to define classes realization in the startup class
+        public UnitTest1(IDriverFixture driverFixture, IDriverWait driverWait)
         {
-            var testSettings = ConfigReader.ReadConfig();
-            _driverFixture = new DriverFixture(testSettings);
-            _driverWait = new DriverWait(_driverFixture, testSettings);
+            _driverFixture = driverFixture;
+            _driverWait = driverWait;
         }
         
         [Theory]
