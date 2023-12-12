@@ -3,7 +3,12 @@ using OpenQA.Selenium;
 
 namespace EAApplicationTest.Pages
 {
-    public class HomePage
+    public interface IHomePage
+    {
+        void ClickProduct();
+    }
+
+    public class HomePage : IHomePage
     {
         private readonly IDriverWait _driver;
 

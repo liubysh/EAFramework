@@ -2,11 +2,17 @@
 using EAFramework.Driver;
 using EAFramework.Extensions;
 using OpenQA.Selenium;
-using OpenQA.Selenium.DevTools.V85.Browser;
 
 namespace EAApplicationTest.Pages
 {
-    public class ProductPage
+    public interface IProductPage
+    {
+        void ClickCreateButton();
+        void CreateProduct(Product product);
+        void PerformClickOnSpecialValue(string name, string operation);
+    }
+
+    public class ProductPage : IProductPage
     {
         private readonly IDriverWait _driver;
 

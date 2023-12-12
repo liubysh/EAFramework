@@ -31,7 +31,7 @@ namespace EAFramework.Driver
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            Driver.Quit();
         }
     }
 }

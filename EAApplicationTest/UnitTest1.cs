@@ -1,49 +1,37 @@
-using System;
 using AutoFixture.Xunit2;
 using EAApplicationTest.Models;
 using EAApplicationTest.Pages;
-using EAFramework.Config;
-using EAFramework.Driver;
 using Xunit;
 
 namespace EAApplicationTest
 {
-    public class UnitTest1 : IDisposable
+    public class UnitTest1
     {
-        private IDriverFixture _driverFixture;
-        private IDriverWait _driverWait;
+        private IHomePage _homePage;
+        private IProductPage _productPage;
 
         //We using only interfaces instead of classes, dependency injection
         //is used to define classes realization in the startup class
-        public UnitTest1(IDriverFixture driverFixture, IDriverWait driverWait)
+        public UnitTest1(IProductPage productPage, IHomePage homePage)
         {
-            _driverFixture = driverFixture;
-            _driverWait = driverWait;
+            _homePage = homePage;
+            _productPage = productPage;
         }
         
         [Theory]
         [AutoData]
         //AutoData will fill all Product model's fields with automatically generated data
-        public void Test1(Product product)
+        public void CreateProductTest(Product product)
         {
-            //HomePage
-            var homePage = new HomePage(_driverWait);
-            var productPage = new ProductPage(_driverWait);
-            
             //Click and create link
-            homePage.ClickProduct();
+            _homePage.ClickProduct();
             
             //Create product
-            productPage.ClickCreateButton();
-            productPage.CreateProduct(product);
+            _productPage.ClickCreateButton();
+            _productPage.CreateProduct(product);
             
             //Open products details
-            productPage.PerformClickOnSpecialValue(product.Name, "Details");
-        }
-
-        public void Dispose()
-        {
-            _driverFixture.Driver.Quit();
+            _productPage.PerformClickOnSpecialValue(product.Name, "Details");
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using EAFramework.Config;
 using OpenQA.Selenium;
