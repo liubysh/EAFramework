@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pgEo8CcXC4hyxaMgZwLMpzQ0OdTYbJKZaXIibNztQJY02un47dOYdE/r/f/zNzBbvyuSAhlUIR1O5Dnxb51wOQ==",
+  "dgSpecHash": "0hU6B0ELCkbdbCrJJSup9ISGcTWO+9NLkUdlFF32WtyInOctlduOINVUeMNRvYpOY0EB4Mhk71vNSTt1Qhp4YA==",
   "success": true,
   "projectFilePath": "C:\\Users\\rsavchuk\\Olya\\EAFrameworkFolder\\EAFramework\\EAFramework\\EAFramework.csproj",
   "expectedPackageFiles": [
@@ -118,10 +118,7 @@
     "C:\\Users\\rsavchuk\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\xunit.dependencyinjection\\8.9.1\\xunit.dependencyinjection.8.9.1.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
-    "C:\\Users\\rsavchuk\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "C:\\Users\\rsavchuk\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\rsavchuk\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\rsavchuk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+    "C:\\Users\\rsavchuk\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512"
   ],
   "logs": []
 }

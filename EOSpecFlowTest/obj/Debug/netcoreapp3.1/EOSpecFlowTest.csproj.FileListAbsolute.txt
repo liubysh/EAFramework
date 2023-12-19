@@ -1,0 +1,6 @@
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EOSpecFlowTest\obj\Debug\netcoreapp3.1\EOSpecFlowTest.csproj.AssemblyReference.cache
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EOSpecFlowTest\obj\Debug\netcoreapp3.1\EOSpecFlowTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EOSpecFlowTest\obj\Debug\netcoreapp3.1\EOSpecFlowTest.AssemblyInfoInputs.cache
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EOSpecFlowTest\obj\Debug\netcoreapp3.1\EOSpecFlowTest.AssemblyInfo.cs
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EOSpecFlowTest\obj\Debug\netcoreapp3.1\EOSpecFlowTest.csproj.CoreCompileInputs.cache
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EOSpecFlowTest\obj\Debug\netcoreapp3.1\EOSpecFlowTest.sourcelink.json

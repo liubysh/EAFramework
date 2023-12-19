@@ -1,0 +1,16 @@
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\bin\Debug\net8.0\EAFramework.deps.json
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\bin\Debug\net8.0\EAFramework.dll
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\bin\Debug\net8.0\EAFramework.pdb
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\obj\Debug\net8.0\EAFramework.csproj.AssemblyReference.cache
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\obj\Debug\net8.0\EAFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\obj\Debug\net8.0\EAFramework.AssemblyInfoInputs.cache
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\obj\Debug\net8.0\EAFramework.AssemblyInfo.cs
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\obj\Debug\net8.0\EAFramework.csproj.CoreCompileInputs.cache
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\obj\Debug\net8.0\EAFramework.sourcelink.json
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\obj\Debug\net8.0\EAFramework.dll
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\obj\Debug\net8.0\refint\EAFramework.dll
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\obj\Debug\net8.0\EAFramework.pdb
+C:\Users\rsavchuk\Olya\EAFrameworkFolder\EAFramework\EAFramework\obj\Debug\net8.0\ref\EAFramework.dll

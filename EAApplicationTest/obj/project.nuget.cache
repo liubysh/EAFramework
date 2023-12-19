@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/jpZtMO6GqQGVXjTrctMtwwhu4rLNBw2JTOsmPQD3ddwu3f6mi7IaGOzy4pz8GCVhyHmUCLnGipYvtprSH+TEA==",
+  "dgSpecHash": "OSmR5Fk+Z1GNqa+3XQ9dN72EMDizzqNLVF3jV22dhDhy2TABDwCf12GdP4AIisRABTl5kQm3ZgkUoM+edpMMNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rsavchuk\\Olya\\EAFrameworkFolder\\EAFramework\\EAApplicationTest\\EAApplicationTest.csproj",
   "expectedPackageFiles": [
@@ -128,10 +128,7 @@
     "C:\\Users\\rsavchuk\\.nuget\\packages\\xunit.dependencyinjection\\8.9.1\\xunit.dependencyinjection.8.9.1.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\xunit.extensibility.core\\2.6.3\\xunit.extensibility.core.2.6.3.nupkg.sha512",
     "C:\\Users\\rsavchuk\\.nuget\\packages\\xunit.extensibility.execution\\2.6.3\\xunit.extensibility.execution.2.6.3.nupkg.sha512",
-    "C:\\Users\\rsavchuk\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.5\\xunit.runner.visualstudio.2.5.5.nupkg.sha512",
-    "C:\\Users\\rsavchuk\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\rsavchuk\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\rsavchuk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+    "C:\\Users\\rsavchuk\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.5\\xunit.runner.visualstudio.2.5.5.nupkg.sha512"
   ],
   "logs": []
 }

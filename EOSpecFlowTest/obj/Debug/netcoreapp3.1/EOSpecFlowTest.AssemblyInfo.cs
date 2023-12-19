@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EOSpecFlowTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f162a53de0ad36cd1c1d5bb5e9e02bc595f87476")]
 [assembly: System.Reflection.AssemblyProductAttribute("EOSpecFlowTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EOSpecFlowTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
