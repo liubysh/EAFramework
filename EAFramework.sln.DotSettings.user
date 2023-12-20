@@ -5,6 +5,7 @@
     &lt;ProjectFile&gt;BFB6F3A3-CCA9-4609-9DC7-6BF22E40DBE0/f:UnitTest1.cs&lt;/ProjectFile&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
       &lt;TestId&gt;xUnit::BFB6F3A3-CCA9-4609-9DC7-6BF22E40DBE0::net6.0::EAApplicationTest.UnitTest1_ClassFixture.Test1&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::8C8CC044-3245-414E-A057-394AB4E6EDFE::net8.0::EOSpecFlowTest.Features.ProductFeature.CreateProductAndVerifyTheDetails&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,5 +1,6 @@
 using EOSpecFlowTest.Models;
 using EOSpecFlowTest.Pages;
+using FluentAssertions;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 
@@ -50,7 +51,8 @@ namespace EOSpecFlowTest.Steps
         [Then(@"I see all the product details are created as expected")]
         public void ThenISeeAllTheProductDetailsAreCreatedAsExpected()
         {
-            _scenarioContext.Pending();
+            var product = _scenarioContext.Get<Product>();
+            _productPage.GetProductName().Should().BeEquivalentTo(product.Name.Trim());
         }
     }
 }

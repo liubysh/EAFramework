@@ -10,7 +10,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Xunit.TestFramework("Xunit.DependencyInjection.DependencyInjectionTestFramework", "Xunit.DependencyInjection")]
 [assembly: Xunit.DependencyInjection.StartupType("EOSpecFlowTest.Startup")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("EOSpecFlowTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]

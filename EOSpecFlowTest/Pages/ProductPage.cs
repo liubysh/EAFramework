@@ -10,6 +10,7 @@ namespace EOSpecFlowTest.Pages
         void ClickCreateButton();
         void CreateProduct(Product product);
         void PerformClickOnSpecialValue(string name, string operation);
+        public string GetProductName();
     }
 
     public class ProductPage : IProductPage
@@ -44,5 +45,7 @@ namespace EOSpecFlowTest.Pages
         {
             tblList.PerformActionOnCell("5", "Name", name, operation);
         }
+
+        public string GetProductName() => txtName.Text;
     }
 }
