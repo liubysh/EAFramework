@@ -3,6 +3,7 @@ using EAFramework.Config;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Safari;
 
 namespace EAFramework.Driver
@@ -15,7 +16,7 @@ namespace EAFramework.Driver
         public DriverFixture(TestSettings testSettings)
         {
             _testSettings = testSettings;
-            Driver = GetWebDriver();
+            Driver = _testSettings.TestRunType == TestRunType.Local ? GetWebDriver() : GetRemoteWebDriver();
             Driver.Navigate().GoToUrl(_testSettings.ApplicationUrl);
         }
         private IWebDriver GetWebDriver()//the same as a Factory Pattern will help to get the driver that we are going to work with
@@ -29,6 +30,17 @@ namespace EAFramework.Driver
             };
         }
 
+        private IWebDriver GetRemoteWebDriver()//the same as a Factory Pattern will help to get the driver that we are going to work with
+        {
+            return _testSettings.BrowserType switch
+            {
+                BrowserType.Chrome => new RemoteWebDriver(_testSettings.GridUri, new ChromeOptions()),
+                BrowserType.Firefox => new RemoteWebDriver(_testSettings.GridUri, new FirefoxOptions()),
+                BrowserType.Safari => new RemoteWebDriver(_testSettings.GridUri, new SafariOptions()),
+                _ => new RemoteWebDriver(_testSettings.GridUri, new ChromeOptions())
+            };
+        }
+        
         public void Dispose()
         {
             Driver.Quit();

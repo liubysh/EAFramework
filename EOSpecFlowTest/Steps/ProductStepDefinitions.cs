@@ -26,8 +26,8 @@ namespace EOSpecFlowTest.Steps
             _homePage.ClickProduct();
         }
         
-        [Given(@"I click the ""(.*)"" link")]
-        public void GivenIClickTheCreateLink(string create)
+        [Given(@"I click the create link")]
+        public void GivenIClickTheCreateLink()
         {
             _productPage.ClickCreateButton();
         }
